@@ -1,0 +1,55 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gainsboro;
+
+    
+}
+
+header {
+    color: white;
+    padding: 100px;
+    padding-top: 0px;
+    background-image: url("./background.jpg");
+    padding: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content:  space-between;
+    list-style-type: none;
+}
+
+li a{
+    color: white;
+    font-size: 30px;
+}
+
+.cabeca {
+    display:flex;
+    align-items: center;
+}
+
+.cabeca img{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.cabeca p{
+    margin: 0px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+main{
+    padding: 50px;
+    font-size: 25px;
+}
+
+section{
+    padding:  20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+}
